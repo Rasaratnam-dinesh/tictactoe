@@ -1,0 +1,26 @@
+#player {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: bisque;
+    
+}
+
+.players { 
+    text-align: centre;
+    border: 1px solid lightseagreen;
+    width: 30%;
+    margin: 10px ;
+    text-align: center;
+   
+}
+
+.players  .name{
+    font-weight: 700;
+    color: brown;
+}
+.players  .score{
+    font-weight: 700;
+    color: blue;
+}
+

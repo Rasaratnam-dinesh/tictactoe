@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    
+}
+h1{
+    font-size: 2.4rem;
+    text-shadow: 5px 5px 15px greenyellow;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row div {
+    border: 1px dashed lightpink;
+    width: 30%;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px greenyellow;  
+}
+
+@media (max-width: 500px) {
+.row {
+  flex-direction: column;
+}
+
+.row div {
+    margin: auto; 
+    width: 80%;
+}
+}
+
+
+    
+
+#top li  {
+            color: lightblue;
+}
+#top li a {
+        color: green;
+}

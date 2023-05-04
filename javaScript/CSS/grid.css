@@ -1,0 +1,18 @@
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 4rem auto;
+    gap: 10px;
+    width: 60%;
+  }
+  .cell {
+    border: 1px solid rgba(0, 0, 0, 0.384);
+    padding: 50px 0;
+    text-align: center;
+    
+  }
+  #grid .cell:hover{
+    background-color: lightgoldenrodyellow;
+    cursor: pointer;
+  }
